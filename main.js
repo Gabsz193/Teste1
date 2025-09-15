@@ -6,5 +6,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3010, () => {
-    console.log("Server running at http://localhost:3010/");
+    console.log("Server running on http://localhost:3010/");
 });
